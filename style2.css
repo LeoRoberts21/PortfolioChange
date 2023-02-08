@@ -9,7 +9,7 @@ body {
   margin: 0%;
   padding: 0%;
   font-family: "Poppins", sans-serif;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     background-color: #F0F0F5;
     color: #1F1F29;
 }
@@ -92,11 +92,10 @@ a:active {
   h1 {
     font-size: 3rem;
   }
-  /*-------PATTERN------------------------------*/
+   /*-------PATTERN------------------------------*/
 
 .home-left {
   font-family: "Poppins", sans-serif;
-  transition:1.5s;
 }
 .home-left .whole-pattern {
   transform: scale(0.42);
@@ -104,7 +103,7 @@ a:active {
   width: -moz-fit-content;
   width: fit-content;
   position: relative;
-  top: -23vh;
+  top: -200px;
   translate: -29%;
 }
 .home-left .row1,
@@ -122,10 +121,10 @@ a:active {
   z-index: 100;
 }
 .home-left .two-rows {
-  width: 19vw;
+  width: 270px;
 }
 .home-left .two-cols {
-  width: 19vw;
+  width: 268px;
   display: flex;
 }
 
@@ -145,6 +144,4 @@ a:active {
 }
 
 
-
 /*---------PROJECT-CURSORS------------------------------*/
-
