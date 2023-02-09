@@ -157,8 +157,8 @@ a:active {
 
 .hr {
   width: 94vw;             
-  background-color:#000000;
-  color: #000000;
+  background-color:#1F1F29;
+  color: #1F1F29;
   height: 1px;
   z-index: 100;
   position: absolute;
