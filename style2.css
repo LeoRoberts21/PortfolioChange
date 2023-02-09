@@ -9,7 +9,8 @@ body {
   margin: 0%;
   padding: 0%;
   font-family: "Poppins", sans-serif;
-    overflow-y: hidden;
+  height: 100%; 
+  overflow: hidden;
     background-color: #F0F0F5;
     color: #1F1F29;
 }
@@ -34,6 +35,7 @@ a:active {
   color: rgb(230, 102, 102);
 }
 
+
 /*--------NavBar1------------------------------*/
 .nav-bar {
   display: flex;
@@ -43,21 +45,20 @@ a:active {
   z-index: 100;
   transition: transform 3s;
   min-width: 100%;
-  padding-right: 7vw;
   height: 17vh;
   align-items: center;
   font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
 }
 
 .nav-bar #nav-left {
-  padding-left: 7vw;
+  padding-left: 3vw;
 }
 .nav-bar #nav-right {
   display: flex;
   justify-content: space-evenly;
   gap: 0.5vw;
-  padding-right: 7vw;
-  height: 2vh;
+  padding-right: 3vw;
 }
 
 .email {
@@ -71,7 +72,7 @@ a:active {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding-top: 17vh;
+  padding-top: 16vh;
 }
 
 #staticPattern {
@@ -83,14 +84,20 @@ a:active {
 }
 
 .home-left {
-  padding-left: 7vw;
+  padding-left: 3vw;
   display: flex;
   flex-direction: column;
   width: 70vw;
   justify-content: space-between;
 }
-  h1 {
+  .welcome {
     font-size: 3rem;
+    margin-bottom: 2%;
+    font-weight:999;
+  }
+
+  .thin {
+    font-weight: 1;
   }
    /*-------PATTERN------------------------------*/
 
@@ -98,13 +105,13 @@ a:active {
   font-family: "Poppins", sans-serif;
 }
 .home-left .whole-pattern {
-  transform: scale(0.42);
+  transform: scale(0.45);
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   position: relative;
-  top: -200px;
-  translate: -29%;
+  top: -205px;
+  translate: -27.5%;
 }
 .home-left .row1,
 .home-left .row2,
@@ -131,12 +138,14 @@ a:active {
 .home-right {
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
-  padding-right: 100px;
-  width: 15vw;
-  height: 69.5vh;
+  padding-top: 4vh;
+  padding-right: 3vw;
+  width: 30%;
+  height: 70vh;
   justify-content:flex-end;
   font-size: 3rem;
+  gap: 2.5vh;
+  align-items: flex-end;
 }
 
 .right-links:hover {
@@ -145,3 +154,14 @@ a:active {
 
 
 /*---------PROJECT-CURSORS------------------------------*/
+
+.hr {
+  width: 94vw;             
+  background-color:#000000;
+  color: #000000;
+  height: 1px;
+  z-index: 100;
+  position: absolute;
+  left: 3vw;
+  top: 17vh;
+}
