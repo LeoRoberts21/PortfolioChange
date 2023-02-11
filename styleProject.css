@@ -1,6 +1,6 @@
 html,
 body {
-  overflow: scroll;
+  overflow: none;
 }
 
 .grid-container {
@@ -43,4 +43,8 @@ body {
 .filterBy {
   font-size: 0.75rem;
   padding-bottom: 4vh;
+}
+
+.filterBtns:hover {
+  background-color: rgb(136, 186, 255);
 }
