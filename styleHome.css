@@ -96,6 +96,8 @@ a:active {
   flex-direction: column;
   width: 77vw;
   justify-content: space-between;
+
+
   /*-------------------------------------*/
 }
 .welcome {
@@ -112,6 +114,7 @@ a:active {
 
 .home-left {
   font-family: "Poppins", sans-serif;
+  
 }
 .home-left .whole-pattern {
   transform: scale(0.45);
@@ -158,6 +161,7 @@ a:active {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+
 }
 
 .right-links:hover {
