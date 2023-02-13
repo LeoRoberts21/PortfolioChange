@@ -70,35 +70,35 @@ codeBtn.addEventListener("click", showCode);
 
 /*--------------------PHONE MENU---------------*/
 
-const modal = document.querySelector('.modal1');
-const overlay = document.querySelector('.overlay1');
-const btnsHideModal = document.querySelector('.close-modal1')
-const btnsShowModal = document.querySelectorAll('.show-modal1');
+// const modal = document.querySelector('.modal1');
+// const overlay = document.querySelector('.overlay1');
+// const btnsHideModal = document.querySelector('.close-modal1')
+// const btnsShowModal = document.querySelectorAll('.show-modal1');
 
 
 
 
-const openModal = function() {
-    modal.classList.remove('hidden1');
-    overlay.classList.remove('hidden1');
-  };
+// const openModal = function() {
+//     modal.classList.remove('hidden1');
+//     overlay.classList.remove('hidden1');
+//   };
 
-const closeModal = function() {
-    modal.classList.add('hidden1');
-    overlay.classList.add('hidden1');
-}
+// const closeModal = function() {
+//     modal.classList.add('hidden1');
+//     overlay.classList.add('hidden1');
+// }
 
-for(let i = 0; i < btnsShowModal.length; i++)
- btnsShowModal[i].addEventListener('click', openModal);
+// for(let i = 0; i < btnsShowModal.length; i++)
+//  btnsShowModal[i].addEventListener('click', openModal);
 
-btnsHideModal.addEventListener('click', closeModal);
-overlay.addEventListener('click', closeModal);
+// btnsHideModal.addEventListener('click', closeModal);
+// overlay.addEventListener('click', closeModal);
 
-document.addEventListener('keydown', function (e) {
-  console.log(e.key);
+// document.addEventListener('keydown', function (e) {
+//   console.log(e.key);
 
-if(e.key === 'Escape' && !modal.classList.contains('hidden1')) {
-closeModal();
-}
-});
+// if(e.key === 'Escape' && !modal.classList.contains('hidden1')) {
+// closeModal();
+// }
+// });
 
