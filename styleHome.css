@@ -72,6 +72,7 @@ a:active {
   left: -999px !important;
 }
 
+
 /*--------Home------------------------------*/
 #whole-home {
   display: flex;
@@ -174,4 +175,8 @@ a:active {
   position: absolute;
   left: 3vw;
   top: 17vh;
+}
+
+footer {
+  height: 20vh;
 }

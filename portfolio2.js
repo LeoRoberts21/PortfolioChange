@@ -35,6 +35,7 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("nav--hidden");
   }
 
+
   lastScrollY = window.scrollY;
 
   if (window.scrollY < 0.5) {
