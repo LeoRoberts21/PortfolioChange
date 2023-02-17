@@ -25,12 +25,11 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  color: rgb(230, 102, 102);
 }
 
 a:active {
   text-decoration: none;
-  color: rgb(230, 102, 102);
+  color: #CD5E57;
 }
 
 /*--------NavBar1------------------------------*/
@@ -58,9 +57,7 @@ a:active {
   padding-right: 3vw;
 }
 
-.email {
-  color: rgb(34, 99, 184);
-}
+
 
 .navbar2 {
   height: 8vh;
@@ -70,6 +67,10 @@ a:active {
   position: absolute !important;
   top: -999px !important;
   left: -999px !important;
+}
+
+.email {
+  font-size: 0.75rem;
 }
 
 
@@ -168,8 +169,6 @@ a:active {
   text-decoration: underline;
 }
 
-/*---------PROJECT-CURSORS------------------------------*/
-
 .hr {
   width: 94vw;
   background-color: #1f1f29;
@@ -184,3 +183,33 @@ a:active {
 footer {
   height: 20vh;
 }
+
+/*---------PROJECT-CURSORS------------------------------*/
+
+.custom {
+  cursor: url("./images/mouse.png") 30 30, auto;
+}
+
+.custom1 {
+  cursor: url("./images/mouse1.png") 30 30, auto;
+}
+
+.custom2 {
+  cursor: url("./images/mouse2.png") 30 30, auto;
+}
+
+.custom3 {
+  cursor: url("./images/mouse3.png") 30 30, auto;
+}
+
+.ff {
+  color: #5561A1;
+  color: #CD5E57;
+  color: #ffcd57;
+  color: #84BCC8;
+  color: #1A203A;
+  color: #D37850;
+}
+
+
+

@@ -36,6 +36,10 @@
   margin-right: 3vw;
 }
 
+.filterBtns:hover {
+  background-color: #81d3e6;
+}
+
 .mePics {
   width: 100%;
   height: auto;

@@ -53,7 +53,7 @@ body {
 }
 
 .filterBtns:hover {
-  background-color: rgb(255, 200, 111);
+  background-color: #ffb157;
 }
 
 /* -------------------------------SCROLLBAR  */
@@ -68,7 +68,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #e67070;
+  background-color: #CD5E57;;
   border-radius: 50vw;
 }
 
