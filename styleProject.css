@@ -10,15 +10,17 @@ body {
   padding: 0px;
   gap: 2vw;
 }
+
 .grid-item {
   background-color: #f0f0f5;
-  width: 68vh;
-  height: 50vh;
+  min-width: 64vh;
+  min-height: 50vh;
   text-align: center;
+
 }
 
 .grid-item > img {
-  object-fit:fill;
+  object-fit: fill;
   width: 100%;
   max-height: 100%;
 }

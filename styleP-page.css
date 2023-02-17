@@ -1,0 +1,30 @@
+.projectText {
+  display: flex;
+  gap: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 8vh;
+  width: 77vw;
+}
+
+
+.flex-container {
+  gap: 2vw;
+}
+
+.two-column {
+  display: flex;
+  gap: 2vw;
+  padding-bottom: 2vw;
+}
+
+.one-column {
+  display: flex;
+  gap: 2vw;
+  padding-bottom: 2vw;
+}
+
+
+.imageSingle {
+  width: 77vw;
+}
+
