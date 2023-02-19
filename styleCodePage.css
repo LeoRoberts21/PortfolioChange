@@ -3,3 +3,9 @@
   flex: 100%;
   max-width: 100%;
 }
+
+.column img:hover {
+  transform: scale(1);
+  transition: 200ms;
+  z-index: 100;
+}
