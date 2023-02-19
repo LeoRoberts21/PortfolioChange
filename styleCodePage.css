@@ -1,0 +1,5 @@
+.column {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  max-width: 100%;
+}
