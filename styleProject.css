@@ -56,5 +56,9 @@ body {
 
 .filterBtns:hover {
   background-color: #ffb157;
+  cursor: pointer;
 }
 
+.hidden {
+  display: none;
+}

@@ -47,22 +47,20 @@ window.addEventListener("scroll", () => {
 
 const codeBtn = document.querySelector(".codeBtn");
 const designBtn = document.querySelector(".designBtn");
+
 const codeModal = document.querySelector(".codeModal");
 const designModal = document.querySelector(".designModal");
 
 const showCode = function () {
   codeModal.classList.remove("hidden");
   designModal.classList.add("hidden");
-  designBtn.classList.remove("ul");
-  codeBtn.classList.add("ul");
 };
 
 const showDesign = function () {
   designModal.classList.remove("hidden");
   codeModal.classList.add("hidden");
-  codeBtn.classList.remove("ul");
-  designBtn.classList.add("ul");
 };
+
 
 designBtn.addEventListener("click", showDesign);
 
@@ -102,3 +100,6 @@ codeBtn.addEventListener("click", showCode);
 // closeModal();
 // }
 // });
+
+/*--------------------PHONE MENU---------------*/
+
