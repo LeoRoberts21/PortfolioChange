@@ -1,0 +1,48 @@
+@media /*(min-width: 30em) and */(max-width: 800px){
+  
+  html,body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  #nav-right {
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .nav-bar-responsive {
+    text-align: center;
+  }
+
+  .welcome {
+    width: 100vw;
+  }
+
+
+.whole-pattern {
+  display: none;
+}
+
+.home-right {
+display: none;
+}
+.home-left {
+  width: 94vw;
+}
+
+.responsive-links{
+  display: flex;
+  padding-top: 4vh;
+  font-size: 1.5rem;
+  justify-content:flex-start;
+  gap: 5vw;
+  width: 100%;
+}
+
+.smallPattern {
+  padding-top: 8vh;
+}
+}

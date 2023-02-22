@@ -230,3 +230,6 @@ footer {
   border-radius: 50vw;
 }
 
+.hidden {
+  display: none;
+}
