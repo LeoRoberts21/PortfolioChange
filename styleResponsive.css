@@ -1,6 +1,6 @@
-@media /*(min-width: 30em) and */(max-width: 800px){
-  
-  html,body {
+@media /*(min-width: 30em) and */(max-width: 800px) {
+  html,
+  body {
     overflow-y: hidden;
     overflow-x: hidden;
   }
@@ -13,36 +13,55 @@
     display: none;
   }
 
+  .hr {
+    top: 8vh;
+  }
+
+  #whole-home {
+    padding-top: 0vh;
+  }
+
+  .email {
+    display: none;
+  }
+
   .nav-bar-responsive {
-    text-align: center;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
   }
 
   .welcome {
-    width: 100vw;
+    width: 94vw;
+    font-size: 3rem;
+    position: relative;
+    margin-top: 5vh;
+    text-align: center;
   }
 
+  .whole-pattern {
+    display: none;
+  }
 
-.whole-pattern {
-  display: none;
-}
+  .home-right {
+    display: none;
+  }
+  .home-left {
+    width: 94vw;
+  }
 
-.home-right {
-display: none;
-}
-.home-left {
-  width: 94vw;
-}
+  .responsive-links {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 15vw;
+    margin-top: 2.4vh;
+  }
 
-.responsive-links{
-  display: flex;
-  padding-top: 4vh;
-  font-size: 1.5rem;
-  justify-content:flex-start;
-  gap: 5vw;
-  width: 100%;
-}
-
-.smallPattern {
-  padding-top: 8vh;
-}
+  .smallPattern {
+    display: block;
+    filter: blur(10px);
+    padding-bottom: 10vh;
+  }
 }
