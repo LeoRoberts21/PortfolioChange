@@ -1,8 +1,59 @@
-@media /*(min-width: 30em) and */(max-width: 800px) {
+
+@media (min-width: 1180px) and (max-width: 1280px) {
+  .home-left .whole-pattern {
+    transform: scale(0.4);
+    top: -205px;
+    translate: -30.25%;
+  }
+
+}
+
+@media /*(min-width: 30em) and */(min-width: 1020px) and (max-width: 1179px){
+
   html,
   body {
     overflow-y: hidden;
     overflow-x: hidden;
+  }
+
+  .welcome {
+    /* width: 94vw;
+    font-size: 4rem;*/
+    position: relative;
+    top: 2vh;
+  }
+
+  
+  .home-left .whole-pattern {
+    transform: scale(0.345);
+    top: -205px;
+    translate: -32.5%;
+  }
+
+  .home-right {
+    padding-right: 3vw;
+    width: 100%;
+    height: 73vh;
+    position: relative;
+    right: 1vw;
+  }
+
+}
+
+
+@media /*(min-width: 30em) and */(max-width: 1024px) {
+  html,
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  ::-webkit-scrollbar-track {
+    display: none;
   }
 
   #nav-right {
@@ -14,7 +65,8 @@
   }
 
   .hr {
-    top: 8vh;
+    top: 1vh;
+    position: relative;
   }
 
   #whole-home {
@@ -27,18 +79,18 @@
 
   .nav-bar-responsive {
     display: flex;
-    font-size: 1.5rem;
+    font-size: 2rem;
     justify-content: center;
     padding-left: 3vw;
     padding-right: 3vw;
+    padding-top: 1vh;
   }
 
   .welcome {
     width: 94vw;
-    font-size: 3rem;
+    font-size: 4rem;
     position: relative;
-    margin-top: 5vh;
-    text-align: center;
+    margin-top: 7vh;
   }
 
   .whole-pattern {
@@ -54,14 +106,94 @@
 
   .responsive-links {
     display: flex;
-    font-size: 1.5rem;
+    justify-content: space-between;
     gap: 15vw;
-    margin-top: 2.4vh;
+    margin-top: 3vh;
+    text-align: center;
+    width: 94vw;
+    font-size: 4rem;
+    align-items: center;
   }
 
   .smallPattern {
     display: block;
-    filter: blur(10px);
-    padding-bottom: 10vh;
+    /* filter: blur(20px); */
+    padding-top: 1vh;
+  }
+
+  .footer {
+    height: 20vh;
+  }
+
+}
+
+
+@media /*(min-width: 30em) and */(max-width: 834px) {
+
+  .nav-bar-responsive {
+    font-size: 1.5rem;
+  }
+
+  .welcome {
+    font-size: 3rem;
+  }
+
+  .responsive-links {
+    font-size: 3rem;
+  }
+
+}
+
+@media /*(min-width: 30em) and */(max-width: 510px) {
+
+  .nav-bar-responsive {
+    font-size: 1.25rem;
+  }
+
+  .welcome {
+    font-size: 2.75rem;
+  }
+
+  .responsive-links {
+    font-size: 2.75rem;
+  }
+}
+
+
+@media /*(min-width: 30em) and */(max-width: 414px) {
+
+  .nav-bar-responsive {
+    font-size: 1rem;
+  }
+
+  .welcome {
+    font-size: 2.25rem;
+  }
+
+  .responsive-links {
+    font-size: 2rem;
+  }
+
+  .smallPattern {
+    padding-top: 3vh;
+  }
+}
+
+@media /*(min-width: 30em) and */(max-width: 320px) {
+
+  .nav-bar-responsive {
+    font-size: 0.8rem;
+  }
+
+  .welcome {
+    font-size: 1.5rem;
+  }
+
+  .responsive-links {
+    font-size: 1.5rem;
+  }
+
+  .smallPattern {
+    padding-top: 3vh;
   }
 }
