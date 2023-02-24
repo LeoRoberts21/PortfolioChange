@@ -13,6 +13,10 @@
   flex: 0.75;
 }
 
+.leftAbout p{
+  color: #ff543d;
+}
+
 .rightAbout {
   flex: 1;
 }
@@ -22,6 +26,13 @@
   justify-content: space-between;
 }
 
+.about-links {
+  display: flex;
+justify-content: flex-end;
+flex-direction: column;
+align-items: flex-end;
+gap: 2.5vh;
+}
 
 .mePics {
   width: 100%;
@@ -35,6 +46,9 @@
 .linkGroup {
   display: flex;
   gap: 1vw;
+}
+.home-right {
+  justify-content: space-between;
 }
 
 .cva {
