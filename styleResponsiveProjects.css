@@ -1,0 +1,64 @@
+@media (min-width: 1180px) and (max-width: 1280px) {
+}
+
+@media (min-width: 1020px) and (max-width: 1179px) {
+}
+
+@media (max-width: 1024px) {
+  html,
+  body {
+    font-size: 1.25rem;
+  }
+
+  .responsive-links {
+    margin-top: 7vh;
+    width: 94.5vw;
+    font-size: 3rem;
+    align-items: center;
+    padding-left: 3vw;
+    margin-right: 0px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color:  #f0f0f5;
+  }
+
+  .grid-container {
+    grid-template-columns: auto;
+  }
+
+  .filterBtns {
+    height: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .filterSection {
+    gap: 1.5vw;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+  }
+
+  .filterBy {
+    padding-bottom: 3vh;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .responsive-links {
+    font-size: 2.5rem;
+  }
+
+
+}
+
+@media (max-width: 510px) {
+
+}
+
+@media (max-width: 414px) {
+}
+
+@media (max-width: 320px) {
+}
