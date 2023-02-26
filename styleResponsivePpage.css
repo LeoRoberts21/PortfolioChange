@@ -8,9 +8,16 @@
 }
 
 @media (min-width: 1020px) and (max-width: 1112px) {
+  .row {
+    width: 69vw;
+  }
 }
 
 @media (max-width: 1024px) {
+  .links {
+    gap: 8vw;
+  }
+  
   .responsive-links {
     margin-top: 4vh;
     margin-bottom: 4vh;
@@ -61,6 +68,10 @@
   .projectText {
     font-size: 1.5rem;
   }
+
+  .links {
+    gap: 8vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -92,13 +103,29 @@
     flex-direction: column;
     gap: 6vw;
   }
+  
 }
 
 @media (max-width: 414px) {
+  .agma {
+    line-height: 7vh;
+  }
+
+  .links {
+    gap: 7vw;
+  }
 }
 
 @media (max-width: 376px) {
+  .links {
+    font-size: 0.8rem;
+    gap: 11vw;
+  }
 }
 
 @media (max-width: 320px) {
+  .links {
+    font-size: 0.7rem;
+    gap: 11vw;
+  }
 }
