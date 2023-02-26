@@ -40,10 +40,12 @@
 }
 
 @media (max-width: 1024px) {
+
+
+
   .responsive-links {
-    margin-top: 7vh;
-    width: 94.5vw;
-    font-size: 3rem;
+    width: 94vw;
+    font-size: 4rem;
     align-items: center;
     padding-left: 3vw;
     margin-right: 0px;
@@ -51,33 +53,50 @@
     position: sticky;
     top: 0;
     background-color: #f0f0f5;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
   }
+
+
 
   .grid-container {
     grid-template-columns: auto;
+      font-size: 1.5rem;
   }
 
   .filterBtns {
     height: 5vh;
     padding-left: 2vw;
     padding-right: 2vw;
+    font-size: 1.5rem;
   }
 
   .filterSection {
     gap: 1.5vw;
     padding-top: 4vh;
     padding-bottom: 1vh;
+
   }
 
   .filterBy {
     padding-bottom: 3vh;
+    font-size: 1.5rem;
+  }
+
+  .b2t {
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 834px) {
   .responsive-links {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
+  .filterSection {
+    gap: 3vw;
+
+  }
+
 }
 
 @media (max-width: 510px) {
@@ -85,8 +104,9 @@
     font-size: 1rem;
   }
   .responsive-links {
-    margin-top: 7vh;
+    margin-top: 4vh;
     width: 94vw;
+    font-size: 2rem;
   }
 
   .grid-item {
@@ -98,6 +118,12 @@
     margin-top: 0.5vh;
     margin-bottom: 3.5vh;
   }
+
+  .grid-container, .b2t, .filterBtns, .filterBy {
+      font-size: 1rem;
+    }
+
+    
 }
 
 @media (max-width: 414px) {
@@ -118,6 +144,7 @@
   .filterBy {
     padding-bottom: 8vh;
     width: 30vw;
+    font-size: 0.8rem;
   }
 
   .responsive-links {
@@ -128,5 +155,11 @@
 
   .nav-bar-responsive {
     font-size: 0.8rem;
+  }
+
+  .filterBtns {
+    height: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
   }
 }

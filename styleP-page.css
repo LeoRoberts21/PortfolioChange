@@ -2,6 +2,11 @@
   height: 74vh;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .projectText {
   display: flex;
   justify-content: flex-end;
@@ -11,7 +16,7 @@
   width: 75vw;
 }
 
-.leftProjectText{
+.leftProjectText {
   flex: 1;
 }
 
@@ -28,17 +33,15 @@
   margin-bottom: 0px;
 }
 
-
 .links {
   display: flex;
   gap: 2vw;
-  padding-left:1vw;
-  opacity: 50%;
+  opacity: 70%;
   font-size: 1rem;
 }
 
 a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 /* ------------------------------------------------ */
 
@@ -46,12 +49,12 @@ text-decoration: underline;
   box-sizing: border-box;
 }
 
-
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
+  width: 75vw;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -59,20 +62,17 @@ text-decoration: underline;
   -ms-flex: 50%; /* IE10 */
   flex: 50%;
   max-width: 50%;
-  
 }
 
 .column img {
   margin-top: 20px;
   vertical-align: middle;
   width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
 
 }
 
 .column img:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
   transition: 150ms;
   z-index: 100;
 }
@@ -95,5 +95,20 @@ text-decoration: underline;
   }
 }
 
+.noPad1 {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
+.noPad2 {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
 
 /* ------------------------------------------------ */
+
+.descript {
+  display: flex;
+  gap: 3vw;
+}

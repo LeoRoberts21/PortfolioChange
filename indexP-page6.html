@@ -23,12 +23,23 @@
     <title>Leo Portfolio</title>
     <link rel="stylesheet" href="styleHome.css" />
     <link rel="stylesheet" href="styleP-page.css" />
-    <link rel="stylesheet" href="test.css" />
+    <link rel="stylesheet" href="styleResponsive.css" />
+    <link rel="stylesheet" href="styleResponsiveProjects.css" />
+    <link rel="stylesheet" href="styleResponsivePpage.css" />
     <link rel="icon" href="./images/minimouse.png" />
   </head>
 
   <body id="switchDiv">
-    <div class="container">
+    <div class="container">         <!-------RESPONSIVE--NAV-BAR------------------------------------------------->
+
+      <section class="nav-bar-responsive hidden">
+          <p>
+            <a href="./index.html" class="nav-dot"><span class="leo"><span class="leo2">Leo Roberts</span><span class="email">j.roberts21@gmail.com</span></span>
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer </p>
+          </p>
+     </section>
+
+
       <!-------NAV-BAR------------------------------------------------->
       <div class="nav-bar">
         <p id="nav-left">
@@ -48,11 +59,16 @@
 
       <!-------HOME-(left)------->
       <div class="hr"></div>
-
+        <!-- --------RESPONSIVE--LINKS------------- -->
+        <div class="responsive-links hidden">
+          <a href="indexProject.html" > <il class="nav-dot right-links">Projects</il> </a>
+          <a href="indexAbout.html" ><il class="nav-dot1 right-links">About</il></a>
+        </div>
+        <!-- --------RESPONSIVE--LINKS------------- -->
       <div id="whole-home">
         <div class="home-left">
           <div class="projectText">
-            <p class="agma">→ DOUGHMOTHER</p>
+            <p class="agma">DOUGHMOTHER</p>
             <p class="leftProjectText">
               A self-initated university brief. I designed and coded a website for a local small business. This was done with the goal of improving my front-end skills.
             </p>
@@ -75,25 +91,25 @@
           </div>
           <div class="row">
             <div class="column">
-              <img src="dm/dm13.png" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/dm2.png" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/dm1.png" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/dm6.png" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/collage.gif" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/dm9.png" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/dm11.png" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/dm12.png" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm13.png" class="noPad1" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm2.png" class="noPad1" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm1.png"  class="noPad1" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm6.png"  class="noPad1" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/collage.gif" class="noPad1" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm9.png" class="noPad1"style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm11.png" class="noPad1" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm12.png" class="noPad1" style="width: 100%" alt="ProjectPicture"/>
             </div>
             <div class="column">
-              <img src="dm/dm14.png" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/dm5.png" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/dm4.png" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/dm10.png" style="width: 100%" alt="ProjectPicture"/>
-              <img src="dm/dm8.png" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm14.png" class="noPad2" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm5.png" class="noPad2" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm4.png" class="noPad2" style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm10.png"  class="noPad2"style="width: 100%" alt="ProjectPicture"/>
+              <img src="dm/dm8.png" class="noPad2" style="width: 100%" alt="ProjectPicture"/>
 
             </div>
           </div>
-          <a href="#whole-home" style="color: #f75347; padding-top: 5vh"
+          <a href="#whole-home" class="b2t" style="color: #f75347; padding-top: 5vh"
           ><p>↑ Back to top</p></a
         >
         </div>

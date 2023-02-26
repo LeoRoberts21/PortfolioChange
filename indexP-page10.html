@@ -23,13 +23,24 @@
     <title>Leo Portfolio</title>
     <link rel="stylesheet" href="styleHome.css" />
     <link rel="stylesheet" href="styleP-page.css" />
-    <link rel="stylesheet" href="test.css" />
+    <link rel="stylesheet" href="styleResponsive.css" />
+    <link rel="stylesheet" href="styleResponsiveProjects.css" />
+    <link rel="stylesheet" href="styleResponsivePpage.css" />
     <link rel="stylesheet" href="styleCodePage.css" />
     <link rel="icon" href="./images/minimouse.png" />
   </head>
 
   <body id="switchDiv">
-    <div class="container">
+    <div class="container">         <!-------RESPONSIVE--NAV-BAR------------------------------------------------->
+
+      <section class="nav-bar-responsive hidden">
+          <p>
+            <a href="./index.html" class="nav-dot"><span class="leo"><span class="leo2">Leo Roberts</span><span class="email">j.roberts21@gmail.com</span></span>
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer </p>
+          </p>
+     </section>
+
+
       <!-------NAV-BAR------------------------------------------------->
       <div class="nav-bar">
         <p id="nav-left">
@@ -49,11 +60,16 @@
 
       <!-------HOME-(left)------->
       <div class="hr"></div>
-
+        <!-- --------RESPONSIVE--LINKS------------- -->
+        <div class="responsive-links hidden">
+          <a href="indexProject.html" > <il class="nav-dot right-links">Projects</il> </a>
+          <a href="indexAbout.html" ><il class="nav-dot1 right-links">About</il></a>
+        </div>
+        <!-- --------RESPONSIVE--LINKS------------- -->
       <div id="whole-home">
         <div class="home-left">
           <div class="projectText">
-            <p class="agma">→ TO-DO LIST</p>
+            <p class="agma">TO-DO LIST</p>
             <p class="leftProjectText"   style="flex:3">
               To-do list, coded in HTML, CSS and javascript.
             </p>
@@ -76,7 +92,7 @@
               <img src="codePics/tdl.png" style="width: 100%" alt="ProjectPicture"/>
             </div>
           </div>
-          <a href="#whole-home" style="color: #f75347; padding-top: 5vh"
+          <a href="#whole-home" class="b2t" style="color: #f75347; padding-top: 5vh"
           ><p>↑ Back to top</p></a
         >
         </div>

@@ -1,0 +1,156 @@
+
+@media (min-width: 1350px) and (max-width: 1450px) {
+
+}
+
+
+
+@media (min-width: 1180px) and (max-width: 1350px) {
+
+
+}
+
+@media (min-width: 1112px) and (max-width: 1179px) {
+
+
+}
+
+@media (min-width: 1020px) and (max-width: 1112px) {
+
+}
+
+@media (max-width: 1024px) {
+
+  .responsive-links {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 97vw;
+    z-index: 100;
+  }
+
+  .projectText {
+    flex-direction: column;
+    width: 94vw;
+    height: 35vh;
+    font-size: 1.5rem;
+  }
+
+  .agma {
+    z-index: 5;
+    top: 4vh;
+    margin: 0px;
+    font-size: 3rem;
+  }
+
+  .descript {
+    margin-top: 0px;
+    gap: 6vw;
+  }
+
+  .links {
+    padding-left: 0vw;
+    font-size: 1.5rem;
+  }
+
+  .b2t {
+    font-size: 1.5rem;
+  }
+
+
+.row {
+  width: 94vw;
+}
+}
+
+@media (max-width: 834px) {
+
+  .projectText {
+    font-size: 1.25rem;
+  }
+
+  .agma {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .projectText {
+    font-size: 1.1rem;
+  }
+
+  .agma {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 510px) {
+
+
+  .noPad1 {
+    padding-right: 0px;
+  }
+
+  .noPad2 {
+    padding-left: 0px;
+  }
+
+  .projectText {
+    font-size: 1rem;
+    position: relative;
+    top: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  .descript {
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  .agma {
+    font-size: 1.25rem;
+  }
+
+  .links {
+    font-size: 1rem;
+  }
+
+  .b2t {
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 414px) {
+
+  .projectText {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+}
+
+
+@media (max-width: 376px) {
+
+  .projectText {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+  }
+
+
+}
+
+
+@media (max-width: 320px) {
+
+  .projectText {
+    margin-top: 40vh;
+    margin-bottom: 10vh;
+  }
+
+
+}
