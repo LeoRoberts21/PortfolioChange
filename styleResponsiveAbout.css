@@ -79,11 +79,25 @@
 @media (max-width: 414px) {
   .logoLinks {
     width: 10vw;
-    gap: 5vw;
-    padding-top: 1vh;
+    gap: 10vw;
+   display: none;
   }
   .linkGroup {
     gap: 5vw;
+  }
+
+  .links {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .cva {
+    align-self: flex-start;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    margin-top: 1vh;
+    padding-bottom: 1vh;
   }
 }
 
