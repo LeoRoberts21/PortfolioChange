@@ -236,3 +236,15 @@ footer {
 
 
 /* -------------------------------FADE-IN--  */
+
+.reveal{
+  position: relative;
+  transform: translateY(75px);
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+
+.active{
+transform: translateY(0px);
+opacity: 1;
+} 
