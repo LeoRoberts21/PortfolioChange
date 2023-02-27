@@ -6,6 +6,10 @@
     translate: -30.25%;
   }
 
+  .reveal {
+    opacity: 1;
+  }
+
 }
 
 @media (min-width: 1020px) and (max-width: 1179px){
