@@ -143,6 +143,13 @@
     font-size: 3rem;
   }
 
+  a:link {
+    text-decoration: none;
+    color: #1f1f29;
+  }
+  
+
+
 }
 
 @media (max-width: 510px) {

@@ -254,10 +254,12 @@ opacity: 1;
 /* -------------------------------LOADER--  */
 
 #preloader {
-  background: #ee5353 url(Images/loader.gif) no-repeat center center;
-  background-size: 25%;
+  background: #f0f0f5 url(Images/2.gif) no-repeat center center;
+  background-size: 50%;
   height: 100vh;
   width: 100%;
   position: fixed;
   z-index: 101;
 }
+
+/* fd2743 */
