@@ -248,3 +248,16 @@ footer {
 transform: translateY(0px);
 opacity: 1;
 } 
+
+
+
+/* -------------------------------LOADER--  */
+
+#preloader {
+  background: #000 url(Netflix/spin.gif) no-repeat center center;
+  background-size: 20%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
