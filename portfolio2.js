@@ -1,6 +1,6 @@
 "use strict";
 
-// DAY READING
+//---------------------------------------------- DAY READING
 
 let today = new Date();
 let day = String(today.getDay());
@@ -23,7 +23,7 @@ if (day == 0) {
   document.querySelector(".current-day").textContent = "Saturday";
 }
 
-// HIDDEN NAV-BAR
+// ----------------------------------------HIDDEN NAV-BAR
 
 const nav = document.querySelector(".nav-bar");
 let lastScrollY = window.scrollY;
@@ -67,39 +67,24 @@ designBtn.addEventListener("click", showDesign);
 codeBtn.addEventListener("click", showCode);
 
 
-/*--------------------PHONE MENU---------------*/
+/*--------------------Fade-In---------------*/
 
-// const modal = document.querySelector('.modal1');
-// const overlay = document.querySelector('.overlay1');
-// const btnsHideModal = document.querySelector('.close-modal1')
-// const btnsShowModal = document.querySelectorAll('.show-modal1');
+window.addEventListener('scroll', reveal);
 
+function reveal() {
+  var reveals = document.querySelectorAll('.reveal');
 
+  for(var i = 0; i < reveals.length; i++) {
 
+    var windowheight = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint = 150;
 
-// const openModal = function() {
-//     modal.classList.remove('hidden1');
-//     overlay.classList.remove('hidden1');
-//   };
-
-// const closeModal = function() {
-//     modal.classList.add('hidden1');
-//     overlay.classList.add('hidden1');
-// }
-
-// for(let i = 0; i < btnsShowModal.length; i++)
-//  btnsShowModal[i].addEventListener('click', openModal);
-
-// btnsHideModal.addEventListener('click', closeModal);
-// overlay.addEventListener('click', closeModal);
-
-// document.addEventListener('keydown', function (e) {
-//   console.log(e.key);
-
-// if(e.key === 'Escape' && !modal.classList.contains('hidden1')) {
-// closeModal();
-// }
-// });
-
-/*--------------------PHONE MENU---------------*/
-
+    if(revealtop < windowheight - revealpoint) {
+      reveals[i].classList.add('active');
+    }
+    else{
+      reveals[i].classList.remove('active');
+    }
+  }
+}
