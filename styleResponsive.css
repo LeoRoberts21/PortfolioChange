@@ -8,17 +8,16 @@
 
 }
 
-@media /*(min-width: 30em) and */(min-width: 1020px) and (max-width: 1179px){
+@media (min-width: 1020px) and (max-width: 1179px){
 
   html,
   body {
-    overflow-y: hidden;
+    overflow-y: scroll;
     overflow-x: hidden;
   }
 
   .welcome {
-    /* width: 94vw;
-    font-size: 4rem;*/
+
     position: relative;
     top: 2vh;
   }
@@ -41,7 +40,7 @@
 }
 
 
-@media /*(min-width: 30em) and */(max-width: 1024px) {
+@media (max-width: 1024px) {
   html,
   body {
     overflow-y: scroll;
@@ -119,7 +118,6 @@
 
   .smallPattern {
     display: block;
-    /* filter: blur(20px); */
     padding-top: 1vh;
   }
 
@@ -130,7 +128,7 @@
 }
 
 
-@media /*(min-width: 30em) and */(max-width: 834px) {
+@media(max-width: 834px) {
 
   .nav-bar-responsive {
     font-size: 1.25rem;
@@ -146,7 +144,7 @@
 
 }
 
-@media /*(min-width: 30em) and */(max-width: 510px) {
+@media (max-width: 510px) {
 
   .nav-bar-responsive {
     font-size: 1.25rem;
@@ -162,7 +160,7 @@
 }
 
 
-@media /*(min-width: 30em) and */(max-width: 414px) {
+@media (max-width: 414px) {
 
   .nav-bar-responsive {
     font-size: 1rem;
@@ -181,7 +179,7 @@
   }
 }
 
-@media /*(min-width: 30em) and */(max-width: 320px) {
+@media (max-width: 320px) {
 
   .nav-bar-responsive {
     font-size: 0.8rem;

@@ -2,10 +2,6 @@
   height: 74vh;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
 
 .projectText {
   display: flex;
