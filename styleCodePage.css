@@ -9,3 +9,12 @@
   transition: 200ms;
   z-index: 100;
 }
+
+.projectText {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.rps {
+  width: 25vw;
+}
