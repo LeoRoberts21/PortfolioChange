@@ -30,7 +30,7 @@ a:hover {
 
 a:active {
   text-decoration: none;
-  color: #CD5E57;
+  color: #ee3c3c;
 }
 
 /*--------NavBar1------------------------------*/
@@ -203,14 +203,6 @@ footer {
   cursor: url("./images/mouse3.png") 30 30, auto;
 }
 
-.ff {
-  color: #5561A1;
-  color: #CD5E57;
-  color: #ffcd57;
-  color: #84BCC8;
-  color: #1A203A;
-  color: #D37850;
-}
 
 
 
@@ -226,7 +218,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #CD5E57;;
+  background-color: #ee3c3c;
   border-radius: 50vw;
 }
 

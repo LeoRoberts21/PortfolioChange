@@ -33,8 +33,9 @@
 .links {
   display: flex;
   gap: 2vw;
-  opacity: 70%;
+  opacity: 100%;
   font-size: 1rem;
+  color: #ee3c3c;;
 }
 
 a:hover {

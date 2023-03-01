@@ -51,8 +51,22 @@ body {
 }
 
 .filterBtns:hover {
-  background-color: #ffb157;
+  background-color: #ee3c3c;
   cursor: pointer;
+  color: #f0f0f5;
+  border-color: #ee3c3c;
+}
+
+.filterBtns:active {
+  background-color: #ee3c3c;
+  color: #f0f0f5;
+  border-color: #ee3c3c;
+}
+
+.redBack {
+  background-color: #ee3c3c;
+  color: #f0f0f5;
+  border-color: #ee3c3c;
 }
 
 .hidden {
