@@ -188,19 +188,19 @@ footer {
 /*---------PROJECT-CURSORS------------------------------*/
 
 .custom {
-  cursor: url("./images/mouse.png") 30 30, auto;
+  cursor: url("/Images/mouse.png") 30 30, auto;
 }
 
 .custom1 {
-  cursor: url("./images/mouse1.png") 30 30, auto;
+  cursor: url("/images/mouse1.png") 30 30, auto;
 }
 
 .custom2 {
-  cursor: url("./images/mouse2.png") 30 30, auto;
+  cursor: url("/images/mouse2.png") 30 30, auto;
 }
 
 .custom3 {
-  cursor: url("./images/mouse3.png") 30 30, auto;
+  cursor: url("/images/mouse3.png") 30 30, auto;
 }
 
 
