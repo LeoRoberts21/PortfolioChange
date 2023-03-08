@@ -25,7 +25,6 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
-
 }
 
 a:active {
@@ -58,8 +57,6 @@ a:active {
   padding-right: 3vw;
 }
 
-
-
 .navbar2 {
   height: 8vh;
 }
@@ -73,7 +70,6 @@ a:active {
 .email {
   font-size: 0.75rem;
 }
-
 
 /*--------Home------------------------------*/
 #whole-home {
@@ -99,14 +95,13 @@ a:active {
   width: 77vw;
   justify-content: space-between;
 
-
   /*-------------------------------------*/
 }
 .welcome {
   font-size: 3rem;
   margin-bottom: 2%;
   font-weight: 999;
-   width: 70vw;
+  width: 70vw;
 }
 
 .thin {
@@ -116,7 +111,6 @@ a:active {
 
 .home-left {
   font-family: "Poppins", sans-serif;
-  
 }
 .home-left .whole-pattern {
   transform: scale(0.45);
@@ -163,7 +157,6 @@ a:active {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-
 }
 
 .right-links:hover {
@@ -207,18 +200,14 @@ footer {
   cursor: url("/Images/mouse3.png") 30 30, auto;
 }
 
-
-
-
 /* -------------------------------SCROLLBAR  */
 
 ::-webkit-scrollbar {
-  width: .45vw;
+  width: 0.45vw;
 }
 
 ::-webkit-scrollbar-track {
   background-color: #f0f0f5;
-
 }
 
 ::-webkit-scrollbar-thumb {
@@ -230,22 +219,19 @@ footer {
   display: none;
 }
 
-
 /* -------------------------------FADE-IN--  */
 
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(75px);
   opacity: 0;
   transition: all 0.8s ease;
 }
 
-.active{
-transform: translateY(0px);
-opacity: 1;
-} 
-
-
+.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
 
 /* -------------------------------LOADER--  */
 
@@ -259,4 +245,3 @@ opacity: 1;
 }
 
 /* fd2743 */
-

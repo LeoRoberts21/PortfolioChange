@@ -18,25 +18,21 @@ const showDesign = function () {
   codeModal.classList.add("hidden");
 };
 
-
 designBtn.addEventListener("click", showDesign);
 
 codeBtn.addEventListener("click", showCode);
 
-
-
 /*--------------------Button-Colour-Change---------------*/
 
-const designFunc = function() {
+const designFunc = function () {
   designBtn.classList.add("redBack");
   codeBtn.classList.remove("redBack");
-}
+};
 
-
-const codeFunc = function() {
+const codeFunc = function () {
   designBtn.classList.remove("redBack");
   codeBtn.classList.add("redBack");
-}
+};
 
 designBtn.addEventListener("click", designFunc);
-codeBtn.addEventListener("click", codeFunc)
+codeBtn.addEventListener("click", codeFunc);

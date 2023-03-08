@@ -1,96 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-14T60JQ9KN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-14T60JQ9KN');
-</script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
-    <meta name="description" content="Welcome to my portfolio! I'm Leo, a graphic design graduate looking for Web Designer / Developer roles.">
-    <link rel="stylesheet" href="styleHome.css" />
-    <link rel="stylesheet" href="lock.css" />
-    <link rel="stylesheet" href="styleAbout.css" />
-    <link rel="stylesheet" href="styleResponsiveAbout.css" />
-    <link rel="stylesheet" href="styleResponsive.css" />
-    <link rel="icon" type="image/png" href="/Images/lemon.png">
-  </head>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-14T60JQ9KN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  <body id="switchDiv">
-    <container class="container">
-      <!-------NAV-BAR------------------------------------------------->
+    gtag('config', 'G-14T60JQ9KN');
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <meta name="description"
+    content="Welcome to my portfolio! I'm Leo, a graphic design graduate looking for Web Designer / Developer roles.">
+  <link rel="stylesheet" href="styleHome.css" />
+  <link rel="stylesheet" href="lock.css" />
+  <link rel="stylesheet" href="styleAbout.css" />
+  <link rel="stylesheet" href="styleResponsiveAbout.css" />
+  <link rel="stylesheet" href="styleResponsive.css" />
+  <link rel="icon" type="image/png" href="/Images/lemon.png">
+</head>
 
+<body id="switchDiv">
+  <container class="container">
+    <!-------RESPONSIVE--NAV-BAR------------------------------------------------->
+    <section class="nav-bar-responsive hidden">
+      <p><a href="./index.html" class="nav-dot"><span class="leo"><span class="leo2">Leo Roberts</span></span>
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer</p>
+    </section>
 
-         <!-------RESPONSIVE--NAV-BAR------------------------------------------------->
-
-
-
-         <section class="nav-bar-responsive hidden">
-          <p>
-              <a href="./index.html" class="nav-dot"><span class="leo"><span class="leo2">Leo Roberts</span><span class="email">j.roberts21@gmail.com</span></span>
-              </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer </p>
+    <!-------NAV-BAR------------------------------------------------->
+    <section class="nav-bar">
+      <p id="nav-left">
+        <a href="index.html" class="nav-dot"><span class="leo"><span class="leo2">Leo Roberts</span></span>
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer
       </p>
-          
-        </section>
 
-
-
-
-
-      <section class="nav-bar">
-        <p id="nav-left">
-          <a href="index.html" class="nav-dot"
-            ><span class="leo"><span class="leo2">Leo Roberts</span></span> </a
-          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer
-          & Developer
-        </p>
-
-        <p id="nav-right" class="tuesday">
-          Enjoy your <b><span class="current-day">dayOfWeek</span></b>
-        </p>
-      </section>
-
-      <!-------HOME-(left)------->
-      <div class="hr"></div>
-
-     <!-- --------RESPONSIVE--LINKS------------- -->
-     <div class="responsive-links hidden">
-       <a href="indexProject.html" > <il class="nav-dot right-links">Projects</il> </a>
-       <a href="indexAbout.html" ><il class="nav-dot1 right-links">About</il></a>
-     </div>
-     <!-- --------RESPONSIVE--LINKS------------- -->
-
-      <section id="whole-home">
-        <div class="home-left">
-          <div class="aboutMainSection">
-            <!-- top side -->
-
-            <div class="leftAbout">
-              <!-- left side -->
-              <span>
+      <p id="nav-right" class="tuesday">Enjoy your <b><span class="current-day">dayOfWeek</span></b></p>
+    </section>
+    <!-------HOME------------------------------------->
+    <div class="hr"></div>
+    <!-- --------RESPONSIVE--LINKS------------- -->
+    <div class="responsive-links hidden">
+      <a href="indexProject.html">
+        <il class="nav-dot right-links">Projects</il>
+      </a>
+      <a href="indexAbout.html">
+        <il class="nav-dot1 right-links">About</il>
+      </a>
+    </div>
+    <!-- --------RESPONSIVE--LINKS------------- -->
+    <section id="whole-home">
+      <div class="home-left">
+        <div class="aboutMainSection">
+          <!-- top side ---------------------->
+          <div class="leftAbout">
+            <!-- left side ----------------------------->
+            <span>
               <h3>EXPERIENCE</h3>
               <p>(2022/Present) Amazon Flex, <b>Delivery Driver</b></p>
               <p>(2021) BBC UX&D, <b>Design Sprint</b></p>
@@ -111,82 +86,67 @@
                 Design, Level 3 Diploma, Distinction
               </p>
             </span>
-
-              <img class="mePicsResponsive hidden" src="./Images/about.gif" alt="Pics of Me" />
-
-
-
-            </div>
-
-
-            <div class="rightAbout">
-
-<br>
-
-            <br>
-              <!-- right side -->
-              <p>
-                Hi, I'm Leo. London-based Web Designer / Developer who loves to
-                leverage my creative and technological skills.
-              </p>
-              <br>
-            <hr class="hidden"/>
-            <br>
-              <p>
-                <b>I'm passionate about...</b> <br />
-                Front-end / Effective UX.UI / Running / Design driven Technology
-                / Playing Guitar / Crafting pixel-perfect, beautiful, accesible
-                experiences.
-                <br>                
-                <br>
-
-                <hr class="hidden"/>
-                <br>
-              </p>
-
-              <span class="links">
-                <span>
-                  <p><b>CONTACT</b></p>
-                  <p>leoj.roberts21@gmail.com <br /></p>
-                  <span class="linkGroup">
-                    <a href="https://www.linkedin.com/in/leoroberts21/"><img
-                        class="logoLinks"
-                        src="./Images/61109.png"
-                        alt="linkedin"
-                    /></a>
-                    <a href="https://github.com/LeoRoberts21"
-                      ><img
-                        class="logoLinks"
-                        src="./Images/25231.png"
-                        alt="github"
-                    /></a>
-                  </span>
-                </span>
-
-                <a href="Images/leoRobertsCv.pdf" class="cva">OPEN CV</a>
-              </span>
-            </div>
+            <img class="mePicsResponsive hidden" src="./Images/about.gif" alt="Pics of Me" />
           </div>
-          <div><!-- bottom --></div>
+          <div class="rightAbout">
+            <br>
+            <br>
+            <!-- right side -------------------------------->
+            <p>
+              Hi, I'm Leo. London-based Web Designer / Developer who loves to
+              leverage my creative and technological skills.
+            </p>
+            <br>
+            <hr class="hidden" />
+            <br>
+            <p>
+              <b>I'm passionate about...</b> <br />
+              Front-end / Effective UX.UI / Running / Design driven Technology
+              / Playing Guitar / Crafting pixel-perfect, beautiful, accesible
+              experiences.
+              <br>
+              <br>
+              <hr class="hidden" />
+              <br>
+            </p>
+            <span class="links">
+              <span>
+                <p><b>CONTACT</b></p>
+                <p>leoj.roberts21@gmail.com <br /></p>
+                <span class="linkGroup">
+                  <a href="https://www.linkedin.com/in/leoroberts21/"><img class="logoLinks" src="./Images/61109.png"
+                      alt="linkedin" /></a>
+                  <a href="https://github.com/LeoRoberts21"><img class="logoLinks" src="./Images/25231.png"
+                      alt="github" /></a>
+                </span>
+              </span>
+              <a href="Images/leoRobertsCv.pdf" class="cva">OPEN CV</a>
+            </span>
+          </div>
         </div>
+        <div><!-- bottom --></div>
+      </div>
 
-        <div class="home-right">
-          <img class="mePics" src="./Images/about.gif" alt="Pics of Me" />
+      <!--RIGHT HOME------------------------------------>
+      <div class="home-right">
+        <img class="mePics" src="./Images/about.gif" alt="Pics of Me" />
 
-          <span class="about-links">
+        <span class="about-links">
           <a href="indexProject.html">
             <il class="nav-dot right-links">Projects</il>
           </a>
-          <a href="indexAbout.html"
-            ><il class="nav-dot1 right-links">About</il></a
-          >
+          <a href="indexAbout.html">
+            <il class="nav-dot1 right-links">About</il>
+          </a>
         </span>
-        </div>
-      </section>
-      <footer class="footer"></footer>
-    </container>
+      </div>
+    </section>
+    <!--FOOTER------------------------------------>
+    <footer class="footer"></footer>
+  </container>
 
-    <script type="text/javascript" src="portfolio2.js"></script>
-    <script type="text/javascript" src="fade.js"></script>
-  </body>
+  <script type="text/javascript" src="portfolio2.js"></script>
+  <script type="text/javascript" src="fade.js"></script>
+</body>
+
 </html>

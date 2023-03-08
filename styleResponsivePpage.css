@@ -17,7 +17,7 @@
   .links {
     gap: 8vw;
   }
-  
+
   .responsive-links {
     margin-top: 4vh;
     margin-bottom: 4vh;
@@ -64,7 +64,6 @@
 }
 
 @media (max-width: 834px) {
-
   .projectText {
     font-size: 1.5rem;
   }
@@ -103,7 +102,6 @@
     flex-direction: column;
     gap: 6vw;
   }
-  
 }
 
 @media (max-width: 414px) {

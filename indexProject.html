@@ -1,236 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-14T60JQ9KN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-14T60JQ9KN');
-</script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Page</title>
-    <meta name="description" content="Welcome to my portfolio! I'm Leo, a graphic design graduate looking for Web Designer / Developer roles.">
-    <link rel="stylesheet" href="styleProject.css" />
-    <link rel="stylesheet" href="styleHome.css" />
-    <link rel="stylesheet" href="styleResponsive.css" />
-    <link rel="stylesheet" href="styleResponsiveProjects.css" />
-    <link rel="icon" type="image/png" href="/Images/lemon.png">
-  </head>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-14T60JQ9KN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  <body id="switchDiv">
-    <container class="container">
+    gtag('config', 'G-14T60JQ9KN');
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Page</title>
+  <meta name="description"
+    content="Welcome to my portfolio! I'm Leo, a graphic design graduate looking for Web Designer / Developer roles.">
+  <link rel="stylesheet" href="styleProject.css" />
+  <link rel="stylesheet" href="styleHome.css" />
+  <link rel="stylesheet" href="styleResponsive.css" />
+  <link rel="stylesheet" href="styleResponsiveProjects.css" />
+  <link rel="icon" type="image/png" href="/Images/lemon.png">
+</head>
 
+<body id="switchDiv">
+  <container class="container">
+    <!-------RESPONSIVE--NAV-BAR------------------------------------------------->
+    <section class="nav-bar-responsive hidden">
+      <p><a href="./index.html" class="nav-dot"><span class="leo"><span class="leo2">Leo Roberts</span></span>
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer</p>
+    </section>
 
-         <!-------RESPONSIVE--NAV-BAR------------------------------------------------->
-         <section class="nav-bar-responsive hidden">
-             <p>
-              <a href="index.html" class="nav-dot"><span class="leo"><span class="leo2">Leo Roberts</span><span class="email">j.roberts21@gmail.com</span></span>
-              </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer </p>
-            </p>
-         </section>
+    <!-------NAV-BAR------------------------------------------------->
+    <section class="nav-bar">
+      <p id="nav-left">
+        <a href="index.html" class="nav-dot"><span class="leo"><span class="leo2">Leo Roberts</span></span>
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer
+      </p>
 
-      <!-------NAV-BAR------------------------------------------------->
-      <div class="nav-bar">
-        <p id="nav-left">
-          <a href="index.html" class="nav-dot"
-            ><span><span>Leo Roberts</span></span>
-          </a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer
-          & Developer
-        </p>
+      <p id="nav-right" class="tuesday">Enjoy your <b><span class="current-day">dayOfWeek</span></b></p>
+    </section>
 
-        <p id="nav-right" class="tuesday">
-          Enjoy your <b><span class="current-day">dayOfWeek</span></b>
-        </p>
-      </div>
+    <div class="hr"></div>
 
-      <!-------HOME-(left)------->
-      <div class="hr"></div>
+    <!-- --------RESPONSIVE--LINKS------------- -->
+    <div class="responsive-links hidden">
+      <a href="indexProject.html">
+        <il class="nav-dot right-links">Projects</il>
+      </a>
+      <a href="indexAbout.html">
+        <il class="nav-dot1 right-links">About</il>
+      </a>
+    </div>
 
-                <!-- --------RESPONSIVE--LINKS------------- -->
-                <div class="responsive-links hidden">
-                  <a href="indexProject.html" > <il class="nav-dot right-links">Projects</il> </a>
-                  <a href="indexAbout.html" ><il class="nav-dot1 right-links">About</il></a>
-               </div>
-                      <!-- --------RESPONSIVE--LINKS------------- -->
-      
+    <!-- --------HOME------------- -->
+    <div id="whole-home">
+      <div class="home-left">
 
-      <div id="whole-home">
-        <div class="home-left">
-          <!-------PUT PROJECTS HERE------->
-
-          <span class="filterSection">
-            <p class="filterBy">↘︎ Filter by</p>
-            <h2>
-              <span>
-                <button class="filterBtns designBtn">DESIGN</button>
-                <button class="filterBtns codeBtn">WEB DEVELOPMENT</button>
-              </span>
-            </h2>
-          </span>
-
-
-
-          <div class="grid-container">
-            <section class="designModal grid-container">
-              <div class="projecBox">
-                <a href="indexP-page1.html">
-                  <div class="grid-item custom">
-                    <img src="covers/1.png" alt="agma project link" /></div
-                ></a>
-                <p class="title">AGMA.</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page2.html">
-                  <div class="grid-item custom1">
-                    <img src="covers/2.png" alt="netflix project link" /></div
-                ></a>
-                <p class="title">NETFLIX D&AD</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page3.html">
-                  <div class="grid-item custom2 reveal">
-                    <img src="covers/3.png" alt="zine project link" /></div
-                ></a>
-                <p class="title">FOLKLORE ZINE</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page4.html">
-                  <div class="grid-item custom3 reveal">
-                    <img src="covers/4.png" alt="spotify project link" /></div
-                ></a>
-                <p class="title">SPOTIFY BOOKS</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page5.html">
-                  <div class="grid-item custom reveal">
-                    <img src="covers/5.png" alt="bbc project link" /></div
-                ></a>
-                <p class="title">BBC EDGE</p>
-              </div>
-            </section>
-
-            <span class="grid-container codeModal hidden">
-              <div class="projecBox">
-                <a href="indexP-page6.html">
-                  <div class="grid-item custom2 reveal active">
-                    <img
-                      src="covers/8.png"
-                      alt="doughmother project link"
-                    /></div
-                ></a>
-                <p class="title">DOUGHMOTHER</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page11.html">
-                  <div class="grid-item custom1 reveal active">
-                    <img src="covers/11.png"" alt="pig game project link" />
-                  </div></a
-                >
-                <p class="title">PIG GAME</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page8.html">
-                  <div class="grid-item custom reveal">
-                    <img src="covers/7.png"" alt="portfolio project link" />
-                  </div></a
-                >
-                <p class="title">PORTFOLIO</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page7.html">
-                  <div class="grid-item custom3 reveal">
-                    <img src="covers/6.png"" alt="code project link" />
-                  </div></a
-                >
-                <p class="title">CODING JOURNEY</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page9.html">
-                  <div class="grid-item custom1 reveal">
-                    <img src="covers/12.png"" alt="rps project link" />
-                  </div></a
-                >
-                <p class="title">ROCK PAPER SCISSORS</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page10.html">
-                  <div class="grid-item custom2 reveal">
-                    <img src="covers/15.png"" alt="to-do list project link" />
-                  </div></a
-                >
-                <p class="title">TO-DO LIST</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page12.html">
-                  <div class="grid-item custom3 reveal">
-                    <img src="covers/14.png"" alt="number game project link" />
-                  </div></a
-                >
-                <p class="title">NUMBER GAME</p>
-              </div>
-
-              <div class="projecBox">
-                <a href="indexP-page13.html">
-                  <div class="grid-item custom reveal">
-                    <img src="covers/13.png"" alt="etch a sketch project link"
-                    />
-                  </div></a
-                >
-                <p class="title">ETCH-A-SKETCH</p>
-              </div>
+        <!-------PUT PROJECTS HERE------->
+        <span class="filterSection">
+          <p class="filterBy">↘︎ Filter by</p>
+          <h2>
+            <span>
+              <button class="filterBtns designBtn">DESIGN</button>
+              <button class="filterBtns codeBtn">WEB DEVELOPMENT</button>
             </span>
-          </div>
-          <a href="#whole-home" class="b2t" style="color:#ee3c3c; padding-top: 5vh"
-            ><p>↑ Back to top</p></a
-          >
-        </div>
+          </h2>
+        </span>
 
-        <div class="home-right">
-          <a href="indexProject.html">
-            <il class="nav-dot right-links">Projects</il>
-          </a>
-          <a href="indexAbout.html"
-            ><il class="nav-dot1 right-links">About</il></a
-          >
+        <div class="grid-container">
+          <section class="designModal grid-container">
+            <div class="projecBox">
+              <a href="indexP-page1.html">
+                <div class="grid-item custom">
+                  <img src="covers/1.png" alt="agma project link" />
+                </div>
+              </a>
+              <p class="title">AGMA.</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page2.html">
+                <div class="grid-item custom1">
+                  <img src="covers/2.png" alt="netflix project link" />
+                </div>
+              </a>
+              <p class="title">NETFLIX D&AD</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page3.html">
+                <div class="grid-item custom2 reveal">
+                  <img src="covers/3.png" alt="zine project link" />
+                </div>
+              </a>
+              <p class="title">FOLKLORE ZINE</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page4.html">
+                <div class="grid-item custom3 reveal">
+                  <img src="covers/4.png" alt="spotify project link" />
+                </div>
+              </a>
+              <p class="title">SPOTIFY BOOKS</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page5.html">
+                <div class="grid-item custom reveal">
+                  <img src="covers/5.png" alt="bbc project link" />
+                </div>
+              </a>
+              <p class="title">BBC EDGE</p>
+            </div>
+          </section>
+
+          <span class="grid-container codeModal hidden">
+            <div class="projecBox">
+              <a href="indexP-page6.html">
+                <div class="grid-item custom2 reveal active">
+                  <img src="covers/8.png" alt="doughmother project link" />
+                </div>
+              </a>
+              <p class="title">DOUGHMOTHER</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page11.html">
+                <div class="grid-item custom1 reveal active">
+                  <img src="covers/11.png"" alt=" pig game project link" />
+                </div>
+              </a>
+              <p class="title">PIG GAME</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page8.html">
+                <div class="grid-item custom reveal">
+                  <img src="covers/7.png"" alt=" portfolio project link" />
+                </div>
+              </a>
+              <p class="title">PORTFOLIO</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page7.html">
+                <div class="grid-item custom3 reveal">
+                  <img src="covers/6.png"" alt=" code project link" />
+                </div>
+              </a>
+              <p class="title">CODING JOURNEY</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page9.html">
+                <div class="grid-item custom1 reveal">
+                  <img src="covers/12.png"" alt=" rps project link" />
+                </div>
+              </a>
+              <p class="title">ROCK PAPER SCISSORS</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page10.html">
+                <div class="grid-item custom2 reveal">
+                  <img src="covers/15.png"" alt=" to-do list project link" />
+                </div>
+              </a>
+              <p class="title">TO-DO LIST</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page12.html">
+                <div class="grid-item custom3 reveal">
+                  <img src="covers/14.png"" alt=" number game project link" />
+                </div>
+              </a>
+              <p class="title">NUMBER GAME</p>
+            </div>
+
+            <div class="projecBox">
+              <a href="indexP-page13.html">
+                <div class="grid-item custom reveal">
+                  <img src="covers/13.png"" alt=" etch a sketch project link" />
+                </div>
+              </a>
+              <p class="title">ETCH-A-SKETCH</p>
+            </div>
+          </span>
         </div>
+        <a href="#whole-home" class="b2t" style="color:#ee3c3c; padding-top: 5vh">
+          <p>↑ Back to top</p>
+        </a>
       </div>
 
-      <footer></footer>
-    </container>
+      <!-- --------HOME-RIGHT------------- -->
+      <div class="home-right">
+        <a href="indexProject.html">
+          <il class="nav-dot right-links">Projects</il>
+        </a>
+        <a href="indexAbout.html">
+          <il class="nav-dot1 right-links">About</il>
+        </a>
+      </div>
+    </div>
 
-    <script type="text/javascript" src="portfolio2.js"></script>
-    <script type="text/javascript" src="projectSwitcher.js"></script>
-  </body>
+    <footer></footer>
+  </container>
+
+  <script type="text/javascript" src="portfolio2.js"></script>
+  <script type="text/javascript" src="projectSwitcher.js"></script>
+</body>
+
 </html>

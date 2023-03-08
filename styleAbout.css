@@ -13,7 +13,7 @@
   flex: 0.75;
 }
 
-.leftAbout p{
+.leftAbout p {
   color: #3764df;
 }
 
@@ -28,10 +28,10 @@
 
 .about-links {
   display: flex;
-justify-content: flex-end;
-flex-direction: column;
-align-items: flex-end;
-gap: 2.5vh;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2.5vh;
 }
 
 .mePics {
@@ -63,7 +63,6 @@ gap: 2.5vh;
   padding-right: 1vw;
   padding-top: 1vh;
   padding-bottom: 1vh;
-
 }
 
 .cva:hover {
