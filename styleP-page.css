@@ -4,28 +4,27 @@
 
 .projectText {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 2vw;
-  padding-top: 5vh;
-  padding-bottom: 4vh;
   width: 75vw;
 }
 
 .leftProjectText {
   flex: 1;
+  width: 35vw;
 }
 
 .rightProjectText {
   flex: 1;
   padding-right: 1vw;
+  width: 35vw;
 }
 
 .agma {
   font-size: 3rem;
   position: relative;
-  bottom: 5vh;
-  padding-right: 2vw;
-  margin-bottom: 0px;
+  margin-bottom: 2vh;
+text-decoration: underline;
 }
 
 .links {
@@ -33,7 +32,6 @@
   gap: 2vw;
   opacity: 100%;
   font-size: 1rem;
-  color: #ee3c3c;
 }
 
 a:hover {
@@ -53,7 +51,7 @@ a:hover {
   width: 75vw;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
   -ms-flex: 50%; /* IE10 */
   flex: 50%;
@@ -72,7 +70,6 @@ a:hover {
   z-index: 100;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
@@ -104,5 +101,55 @@ a:hover {
 
 .descript {
   display: flex;
-  gap: 3vw;
+  gap: 4vw;
+  padding-bottom: 6vh;
+}
+
+.skills {
+margin-bottom: 2vh;
+font-size: 0.75rem;
+}
+
+.html, .css, .javascript {
+  background-color:#ee3c3c76;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  margin-right: 1vw;
+}
+
+.css {
+  background-color: #3764df73;
+}
+
+.javascript {
+  background-color: rgba(248, 178, 72, 0.514);
+}
+
+.descriptTitles {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.linksButton {
+  font-family: "Poppins", sans-serif;
+  width: auto;
+  font-size: 1rem;
+  align-self: center;
+  background-color: #f0f0f5;
+  border: 1px black solid;
+  border-radius: 50px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  color: #1f1f29;
+}
+
+.linksButton:hover {
+  background-color: #1f1f29;
+  cursor: pointer;
+  text-decoration: none;
+  color: #f0f0f5;
 }
