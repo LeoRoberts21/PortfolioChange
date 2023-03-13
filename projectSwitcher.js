@@ -36,3 +36,17 @@ const codeFunc = function () {
 
 designBtn.addEventListener("click", designFunc);
 codeBtn.addEventListener("click", codeFunc);
+
+
+const codeHover = function () {
+  designBtn.classList.remove("redBack");
+};
+
+const designHover = function () {
+  codeBtn.classList.remove("redBack");
+};
+
+
+codeBtn.addEventListener("mouseover", codeHover);
+designBtn.addEventListener("mouseover", designHover);
+

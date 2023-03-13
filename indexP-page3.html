@@ -1,123 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-14T60JQ9KN"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-14T60JQ9KN"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "G-14T60JQ9KN");
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Folklore Zine</title>
+    <meta
+      name="description"
+      content="Welcome to my portfolio! I'm Leo, a graphic design graduate looking for Web Designer / Developer roles."
+    />
+    <link rel="stylesheet" href="styleHome.css" />
+    <link rel="stylesheet" href="styleP-page.css" />
+    <link rel="stylesheet" href="styleResponsive.css" />
+    <link rel="stylesheet" href="styleResponsiveProjects.css" />
+    <link rel="stylesheet" href="styleResponsivePpage.css" />
+    <link rel="icon" type="image/png" href="/Images/lemon.png" />
+  </head>
 
-    gtag('config', 'G-14T60JQ9KN');
-  </script>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap"
-    rel="stylesheet" />
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Folklore Zine</title>
-  <meta name="description"
-    content="Welcome to my portfolio! I'm Leo, a graphic design graduate looking for Web Designer / Developer roles.">
-  <link rel="stylesheet" href="styleHome.css" />
-  <link rel="stylesheet" href="styleP-page.css" />
-  <link rel="stylesheet" href="styleResponsive.css" />
-  <link rel="stylesheet" href="styleResponsiveProjects.css" />
-  <link rel="stylesheet" href="styleResponsivePpage.css" />
-  <link rel="icon" type="image/png" href="/Images/lemon.png">
-</head>
+  <body id="switchDiv">
+    <div class="container">
+      <!-------RESPONSIVE--NAV-BAR------------------------------------------------->
+      <section class="nav-bar-responsive hidden">
+        <p>
+          <a href="./index.html" class="nav-dot"
+            ><span class="leo"><span class="leo2">Leo Roberts</span></span> </a
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer
+          & Developer
+        </p>
+      </section>
 
-<body id="switchDiv">
-  <div class="container">
-    <!-------RESPONSIVE--NAV-BAR------------------------------------------------->
-    <section class="nav-bar-responsive hidden">
-      <p><a href="./index.html" class="nav-dot"><span class="leo"><span class="leo2">Leo Roberts</span></span>
-        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer</p>
-    </section>
+      <!-------NAV-BAR------------------------------------------------->
+      <section class="nav-bar">
+        <p id="nav-left">
+          <a href="index.html" class="nav-dot"
+            ><span class="leo"><span class="leo2">Leo Roberts</span></span> </a
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer
+          & Developer
+        </p>
 
-    <!-------NAV-BAR------------------------------------------------->
-    <section class="nav-bar">
-      <p id="nav-left">
-        <a href="index.html" class="nav-dot"><span class="leo"><span class="leo2">Leo Roberts</span></span>
-        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer
-      </p>
+        <p id="nav-right" class="tuesday">
+          Enjoy your <b><span class="current-day">dayOfWeek</span></b>
+        </p>
+      </section>
 
-      <p id="nav-right" class="tuesday">Enjoy your <b><span class="current-day">dayOfWeek</span></b></p>
-    </section>
+      <div class="hr"></div>
 
-    <div class="hr"></div>
-
-    <!-- --------RESPONSIVE--LINKS------------- -->
-    <div class="responsive-links hidden">
-      <a href="indexProject.html">
-        <il class="nav-dot right-links">Projects</il>
-      </a>
-      <a href="indexAbout.html">
-        <il class="nav-dot1 right-links">About</il>
-      </a>
-    </div>
-    <!----------HOME--------------->
-
-    <div id="whole-home">
-      <div class="home-left">
-        <div class="projectText">
-          <p class="agma">FOLKLORE ZINE</p>
-          <span class="descript">
-            <p class="leftProjectText">
-              Editorial live design brief set by B.A.M London. The task was to create a zine about a subject or interest
-              that is close to you.
-            </p>
-            <p class="rightProjectText">
-              I drew inspiration from various themes and stories surrounding folklore.
-            </p>
-          </span>
-        </div>
-
-        <!-- Photo Grid ------------------------------------------>
-        <div class="links">
-          <a href="/sketchbooks/Live Brief Digital Sketchbook.pdf">
-            <p class="links">View Sketchbook</p>
-          </a>
-        </div>
-        <div class="row">
-          <div class="column">
-            <img src="Folklore/16.png" style="width: 100%" alt="ProjectPicture" class="noPad1 " />
-            <img src="Folklore/17.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-            <img src="Folklore/11.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-            <img src="Folklore/8.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-            <img src="Folklore/23.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-            <img src="Folklore/25.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-            <img src="Folklore/27.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-            <img src="Folklore/29.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-            <img src="Folklore/31.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-            <img src="Folklore/33.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-            <img src="Folklore/35.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-            <img src="Folklore/37.png" style="width: 100%" alt="ProjectPicture" class="noPad1 reveal" />
-          </div>
-          <div class="column">
-            <img src="Folklore/15.png" style="width: 100%" alt="ProjectPicture" class="noPad2" />
-            <img src="Folklore/18.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-            <img src="Folklore/13.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-            <img src="Folklore/20.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-            <img src="Folklore/24.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-            <img src="Folklore/26.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-            <img src="Folklore/28.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-            <img src="Folklore/30.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-            <img src="Folklore/32.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-            <img src="Folklore/34.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-            <img src="Folklore/36.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-            <img src="Folklore/38.png" style="width: 100%" alt="ProjectPicture" class="noPad2 reveal" />
-          </div>
-        </div>
-        <a href="#whole-home" class="b2t" style="color: #ee3c3c; padding-top: 5vh">
-          <p>↑ Back to top</p>
-        </a>
-      </div>
-      <!----------HOME-RIGHT-------------------------------->
-      <div class="home-right">
+      <!-- --------RESPONSIVE--LINKS------------- -->
+      <div class="responsive-links hidden">
         <a href="indexProject.html">
           <il class="nav-dot right-links">Projects</il>
         </a>
@@ -125,10 +84,213 @@
           <il class="nav-dot1 right-links">About</il>
         </a>
       </div>
-    </div>
-  </div>
-  <footer></footer>
-  <script type="text/javascript" src="portfolio2.js"></script>
-</body>
+      <!----------HOME--------------->
 
+      <div id="whole-home">
+        <div class="home-left">
+          <div class="projectText">
+            <p class="agma">FOLKLORE ZINE</p>
+          </div>
+
+          <div class="skills">
+            <span class="designTags">Adobe</span>
+            <span class="designTags">Editorial</span>
+          </div>
+          <span class="descript">
+            <span>
+              <p class="agma descriptTitles">Project Purpose</p>
+              <p class="leftProjectText">
+                This was a live design brief set by agency B.A.M London. The
+                task was to create a zine about a subject or interest that is
+                close to you. I took this brief as an opportunity to experiment
+                with a range of design techniques and disciplines.
+              </p>
+            </span>
+            <span>
+              <p class="agma descriptTitles">Thought Process</p>
+              <p class="rightProjectText">
+                I based the zine around folklore, as this is a subject that has
+                always fascinated me. I wanted it to showcase different tales
+                and characters in an eerie, visually compelling manner.
+              </p>
+            </span>
+          </span>
+          <!-- Photo Grid ------------------------------------------>
+          <div class="links">
+            <a href="/sketchbooks/Live Brief Digital Sketchbook.pdf">
+              <p class="links linksButton">View Sketchbook</p>
+            </a>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img
+                src="Folklore/16.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1"
+              />
+              <img
+                src="Folklore/17.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+              <img
+                src="Folklore/11.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+              <img
+                src="Folklore/8.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+              <img
+                src="Folklore/23.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+              <img
+                src="Folklore/25.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+              <img
+                src="Folklore/27.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+              <img
+                src="Folklore/29.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+              <img
+                src="Folklore/31.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+              <img
+                src="Folklore/33.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+              <img
+                src="Folklore/35.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+              <img
+                src="Folklore/37.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad1 reveal"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="Folklore/15.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2"
+              />
+              <img
+                src="Folklore/18.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+              <img
+                src="Folklore/13.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+              <img
+                src="Folklore/20.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+              <img
+                src="Folklore/24.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+              <img
+                src="Folklore/26.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+              <img
+                src="Folklore/28.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+              <img
+                src="Folklore/30.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+              <img
+                src="Folklore/32.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+              <img
+                src="Folklore/34.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+              <img
+                src="Folklore/36.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+              <img
+                src="Folklore/38.png"
+                style="width: 100%"
+                alt="ProjectPicture"
+                class="noPad2 reveal"
+              />
+            </div>
+          </div>
+          <a
+            href="#whole-home"
+            class="b2t"
+            style="color: #ee3c3c; padding-top: 5vh"
+          >
+            <p>↑ Back to top</p>
+          </a>
+        </div>
+        <!----------HOME-RIGHT-------------------------------->
+        <div class="home-right">
+          <a href="indexProject.html">
+            <il class="nav-dot right-links">Projects</il>
+          </a>
+          <a href="indexAbout.html">
+            <il class="nav-dot1 right-links">About</il>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+    <script type="text/javascript" src="portfolio2.js"></script>
+  </body>
 </html>
