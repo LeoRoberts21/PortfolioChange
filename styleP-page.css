@@ -66,12 +66,12 @@ text-decoration: none;
   vertical-align: middle;
   width: 100%;
 }
-
+/* 
 .column img:hover {
   transform: scale(1.02);
   transition: 150ms;
   z-index: 100;
-}
+} */
 
 @media screen and (max-width: 800px) {
   .column {
